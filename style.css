@@ -99,13 +99,18 @@ body.dark-mode .section h2 {
 }
 
 .links {
+  width: 3rem;
+  height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin: 1vh;
-  border-radius: 8px; /* Changed from 50% to 8px */
+  border-radius: 50%;
   background-color: transparent;
   border: 2px solid var(--accent-light);
   color: var(--accent-light);
-  padding: 0.6rem 1.2rem; /* Adjusted for better button shape */
   transition: all var(--transition-speed) ease;
+  text-decoration: none;
 }
 body.dark-mode .links {
   border-color: var(--accent-dark);
